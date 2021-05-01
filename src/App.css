@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  text-align: center;
+  pointer-events: none;
+}
+
+.Blank-div {
+  height: 40vmax;
+  pointer-events: none;
+}
+
+.Long-logo {
+  width: 70vmin;
+  pointer-events: none;
+}
+
+.Right-img {
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
+  align-items: right;
+  justify-content: right;
+}
+.Main-div {
+  display: block;
+}
+
+.Insta-logo {
+  width: 15vmin;
+  float: right;
+  object-position: right;
+}
+
+.Project {
+  width: 100vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.a {
+  text-align: center;
+  justify-content: center;
+  width: 100vmin;
+  height: 40vmin;
+  max-height: 40vmin;
+  cursor: pointer;
+}
+
+.c {
+  text-align: center;
+  width: 100vmin;
+  height: 40vmin;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.d {
+  text-align: center;
+  width: 100vmin;
+  height: 100vmin;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.e {
+  position: absolute;
+  top: 51%;
+  cursor: pointer;
+
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+
+/*.back {
+  background-image: url(./img/home_icon.svg);
+}*/
+
+/*.front {
+  background-image: url(./img/projectX.jpeg);
+}*/
