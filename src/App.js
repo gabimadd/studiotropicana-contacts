@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App" >
       <header className="App-header">
-        <Router>
+        <BrowserRouter basename={'/studiotropicana-contacts/'}>
           <div>
             <Switch>
               <Route exact path="/">
@@ -34,7 +34,7 @@ function App() {
               </Route>
             </Switch>
           </div>
-        </Router>
+        </BrowserRouter>
       </header>
     </div>
   );
