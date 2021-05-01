@@ -6,7 +6,7 @@ import './App.css';
 import React, { useState } from 'react'
 import { useSpring, animated as a } from 'react-spring'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
   Link
