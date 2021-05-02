@@ -43,13 +43,11 @@ function App() {
 function Home() {
   return (
     <div className="Main-div">
-      <Link to="/projects">
-        <div className=" App-logo" >
-          <img src={home_icon} className="App-logo" alt="icon" />
-        </div>
-      </Link>
       <div>
-        <p className="">
+        <img src={logo} className="Long-logo" alt="logo" />
+      </div>
+      <div>
+        <p className="Contacts">
           Hebelstrasse 109 <br/>
           4056 Basel <br/>
           Switzerland <br/><br/>
@@ -63,14 +61,19 @@ function Home() {
             info@studiotropicana.net
           </a>
         </p>
-
       </div>
+      <div className="Blank-div"/>
+      <Link to="/projects">
+        <div className=" App-logo" >
+          <img src={home_icon} className="App-logo" alt="icon" />
+        </div>
+      </Link>
+      <div className="Blank-div"/>
       <div>
-        <img src={logo} className="Long-logo" alt="logo" />
-      </div>
-      <a className="Insta-logo" href="https://www.instagram.com/studiotropicana/" target="_blank" rel="noopener noreferrer">
+        <a className="Insta-logo" href="https://www.instagram.com/studiotropicana/" target="_blank" rel="noopener noreferrer">
           <img src={instagram} className="Insta-logo" alt="instagram" />
-      </a>
+        </a>
+      </div>
     </div>
   );
 }
@@ -81,6 +84,13 @@ function Projects() {
       <Link to="/">
         <img src={project} className="Project" alt="project" />
       </Link>
+      <div className="Left-div">
+        <p className="Image-text">
+            009_BBL, 
+            Varese, Italy,
+            Project 2020 -
+        </p>
+      </div>
     </div>
   );
 }

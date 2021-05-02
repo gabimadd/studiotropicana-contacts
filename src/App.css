@@ -9,12 +9,13 @@
 }
 
 .Blank-div {
-  height: 40vmax;
+  height: 6vmin;
   pointer-events: none;
 }
 
 .Long-logo {
   width: 70vmin;
+  padding: 10px;
   pointer-events: none;
 }
 
@@ -28,15 +29,18 @@
 .Main-div {
   display: block;
 }
-
+.Left-div {
+  text-align: left;
+}
 .Insta-logo {
-  width: 15vmin;
-  float: right;
-  object-position: right;
+  width: 5vmin;
+  margin-bottom: 5vmin;
+  /*float: right;
+  object-position: right;*/
 }
 
 .Project {
-  width: 100vmin;
+  width: 90vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -54,6 +58,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+}
+
+.Contacts {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+  /*font-family: sofia-pro, sans-serif;*/
+  font-style: normal;
+  font-weight: 100;
+}
+
+.Image-text {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  /*font-family: sofia-pro, sans-serif;*/
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 1px;
 }
 
 .App-link {
