@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/studiotropicana-contacts/static/css/main.bc17c5fc.chunk.css",
-    "main.js": "/studiotropicana-contacts/static/js/main.d7ff8a3f.chunk.js",
-    "main.js.map": "/studiotropicana-contacts/static/js/main.d7ff8a3f.chunk.js.map",
+    "main.js": "/studiotropicana-contacts/static/js/main.17c759fc.chunk.js",
+    "main.js.map": "/studiotropicana-contacts/static/js/main.17c759fc.chunk.js.map",
     "runtime-main.js": "/studiotropicana-contacts/static/js/runtime-main.8ad9ba35.js",
     "runtime-main.js.map": "/studiotropicana-contacts/static/js/runtime-main.8ad9ba35.js.map",
     "static/js/2.b5c0be30.chunk.js": "/studiotropicana-contacts/static/js/2.b5c0be30.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.8ad9ba35.js",
     "static/js/2.b5c0be30.chunk.js",
     "static/css/main.bc17c5fc.chunk.css",
-    "static/js/main.d7ff8a3f.chunk.js"
+    "static/js/main.17c759fc.chunk.js"
   ]
 }
