@@ -1,7 +1,7 @@
 import home_icon from './img/home_icon.svg';
 import logo from './img/logo.svg';
 import instagram from './img/instagram_icon.svg';
-import project from './img/projectX.jpeg';
+import project from './img/projectX_new.jpg';
 import './App.css';
 import React, { useState } from 'react'
 import { useSpring, animated as a } from 'react-spring'
@@ -88,7 +88,7 @@ function Projects() {
         <p className="Image-text">
             009_BBL, 
             Varese, Italy,
-            Project 2020 -
+            Project 2020 - Photo: © Mikael Olsson
         </p>
       </div>
     </div>
